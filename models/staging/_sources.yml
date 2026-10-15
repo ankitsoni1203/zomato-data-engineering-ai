@@ -1,0 +1,20 @@
+version: 2
+sources:
+  - name: raw
+    database: zomato
+    schema: raw
+    tables:
+      - name: restaurants
+        description: "This table contains the raw data of restaurants"
+      - name: users
+        description: "This table contains the raw data of users from the source"
+      - name: food
+        description: "This table contains the raw data of food items"
+      - name: menu
+        description: "This table contains the raw data of menus from the source"
+      - name: orders
+        description: "This table contains the raw data of orders from the source"
+      - name: order_items
+        description: "This table contains the raw data of order items"
+      - name: reviews
+        description: "This table contains the raw data of reviews from the source"
